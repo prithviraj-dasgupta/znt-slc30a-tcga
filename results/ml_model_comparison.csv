@@ -1,0 +1,13 @@
+cancer_type,model,features,metric,mean,sd,n
+KIRC,elastic-net Cox,clinical only,C-index,0.7546560318480539,0.042635162930497565,528
+KIRC,elastic-net Cox,ZnT genes only,C-index,0.6201409566330769,0.052244719680681985,528
+KIRC,elastic-net Cox,clinical + ZnT,C-index,0.7538100184254936,0.045272340979307484,528
+KIRC,random forest (3-yr death),clinical only,ROC AUC,0.7702264970524356,0.006628105127487691,403
+KIRC,random forest (3-yr death),ZnT genes only,ROC AUC,0.6055103940428173,0.0024644575105606044,403
+KIRC,random forest (3-yr death),clinical + ZnT,ROC AUC,0.7604716103009619,0.006591027353558948,403
+LGG,elastic-net Cox,clinical only,C-index,0.7455282209499,0.05460804364192002,511
+LGG,elastic-net Cox,ZnT genes only,C-index,0.755811496906241,0.05242736138445858,511
+LGG,elastic-net Cox,clinical + ZnT,C-index,0.8290147123737976,0.04023519326392436,511
+LGG,random forest (3-yr death),clinical only,ROC AUC,0.7765944798301485,0.00391593084200722,232
+LGG,random forest (3-yr death),ZnT genes only,ROC AUC,0.8207048832271763,0.007889847993636423,232
+LGG,random forest (3-yr death),clinical + ZnT,ROC AUC,0.8927218683651805,0.006208852088576808,232
