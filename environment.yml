@@ -1,0 +1,16 @@
+name: znt
+channels:
+  - conda-forge
+dependencies:
+  - lifelines
+  - matplotlib
+  - python=3.11
+  - statsmodels
+  - numpy
+  - scikit-learn
+  - scipy
+  - pandas
+  - shap
+  - seaborn
+  - jupyterlab
+prefix: /opt/homebrew/Caskroom/miniforge/base/envs/znt
